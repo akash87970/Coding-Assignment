@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+<script src="javascript.js"></script>
+</head>
+<body>
+  <div >
+  <h1> Customer Survey Form</h1>
+  <form onsubmit="akash()" id="survey">   <!--We also use table tag(tr tag td tag) to create form -->
+    <div class="block">First Name: <input type="text" placeholder="Akash" id="first">
+    Last Name: <input type="text" placeholder="Verma" id="second" ></div> 
+    <div class="block"> Date Of Birth: <input type="text" id="date" placeholder="13/01/1998"></div>
+    <div class="block"> Country :<select name="country" id="country"  required>
+      <option value="" class="country" >Select</option >
+      <option value="India" class="country" >India</option required>
+      <option value="America" class="country" >America</option>
+      <option value="Australia">Australia</option>
+      <option value="Londan">Londan</option>
+      <option value="Russia">Russia</option>
+      <option value="Ukraine">Ukraine</option>
+   
+    </select>
+
+    <div class="block" > Gender : 
+      Male <input type="checkbox" name="Gender" id="male" value="Male" >
+      Female <input type="checkbox" name="Gender" id="female" value="Female" >
+    <div><p id="messages"></p></div>
+    </div>
+    <div class="block">Profession:<select name="Profession" id="Profession"  required>
+      <option value="">select</option required>
+      <option value="Web Developer">Web Developer</option required>
+      <option value="Software Developer">Software Developer</option>
+      <option value="Mobile App Developer">Mobile App Developer</option>
+      <option value="QA tester">QA tester</option>
+      <option value="Network engineer">Network engineer</option>
+      <option value="others">others</option>
+   
+    </select><div class="block"> If not in option please write your Profession :<input type="text" placeholder="Software engineer"></div>  
+    <div class="block">Email: <input type="email"  id="email" placeholder="akash87970@gmail.com"  required></div>
+    <div class="block">Mobile Number:
+    <select name="Mobile" id="Mnumber"   required>
+      <option value="">+00</option required>
+      <option value="">+91</option required>
+      <option value="">+21</option >  
+      <option value="">+31</option ></select> 
+
+     <input type="number" placeholder="7004567086"  id="num" required></div>
+     <div class="block"> Is this first time you are using our products & service?</div>
+     <div class="block" id="service">
+       <input type="radio" name="service" required> Yes
+       <input type="radio" name="service" required>No</div>
+     <div class="block"> Would you suggestion to your friends and collegue?</div>
+     <div class="block" id="sugg">
+       <input type="radio" name="sugg" required> Yes
+       <input type="radio" name="sugg" required>No</div>
+     <div class="block" > How satisfied are you with our company overall?</div>
+     <div class="block" id="satis"> 
+      <input type="radio" name="review" required> Satisfied
+      <input type="radio" name="review" required>Unsatisfied
+     <input type="radio" name="review" required> Undecided</div>
+     <div class="block"> Do you have suggestion to improve our service?</div>
+     <div class="block">
+      <textarea rows="2" cols="50" id="text" required> I am skilled in Html , css , Javascript , MySql , Java and knowledge of Python.</textarea></div>
+     
+     <input type="submit" value="Submit" id="submit" class="block">>
+     <input type="reset" value="Reset" id="reset" class="block">>
+    
+  </form>
+  
+</body>
+</html>

@@ -1,0 +1,52 @@
+* { 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+#input {
+  height: 43px;
+  width:191.5px;
+  border: 0px;
+  } 
+#AC{
+  height: 44px;
+  width: 60px;
+  border: 0px;
+  background-color:rgb(3, 248, 142);
+  color:whitesmoke;
+}
+.operator{
+  height: 44px;
+  width: 60px;
+  border: 0px;
+  color:whitesmoke;
+  background-color:rgb(73, 69, 69);
+}
+.digit{
+   
+  height: 44px;
+  width: 60px;
+  border: 0px;
+  background-color:rgb(33, 31, 31);
+  color:whitesmoke;
+}
+body{
+  height:100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  background-color: grey;
+
+}
+.Calculator{
+  background-color:rgb(33, 31, 31);
+  
+}
+h1{
+  color: beige;
+  
+}
